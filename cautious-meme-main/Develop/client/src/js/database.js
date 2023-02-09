@@ -14,7 +14,6 @@ const initdb = async () =>
 
   export const putDb = async (content)  => {
     console.log('update database');
-  
     // Create a connection to the database database and version we want to use.
     const contactDb = await openDB('jate', 1);
   
