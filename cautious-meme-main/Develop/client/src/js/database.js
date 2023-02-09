@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
   export const putDb = async (content)  => {
-    console.log('PUT to the database');
+    console.log('update database');
   
     // Create a connection to the database database and version we want to use.
     const contactDb = await openDB('jate', 1);
@@ -29,7 +29,7 @@ const initdb = async () =>
   
     // Get confirmation of the request.
     const result = await request;
-    console.log('- data saved to the database', result);
+    console.log('data saved to the database', result);
   };
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
@@ -51,7 +51,7 @@ export const getDb = async () => {
   // Get confirmation of the request.
   const result = await request;
   console.log("result.value", result);
-  return result?.value;
+  return result;
 };
 
 
