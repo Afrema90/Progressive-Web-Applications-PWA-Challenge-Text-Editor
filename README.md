@@ -1,19 +1,13 @@
 # Progressive-Web-Applications-PWA-Challenge-Text-Editor
-In this Assignment we where asked to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-Installation
-This text editor require a number of methods and store data to an IndexedDB database to be builded up.
-
-This application will require the installation of Node.js and various npm packages.
-
-Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using npm init. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
+In this Assignment we where asked to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.Installation
+This text editor require the Node.js and npm packages. The node package manger also known as the NPM is the software manager and installer which puts the modules in place so that the node can utilize it, and also manages dependency conflicts intelligently and initialized using npm init. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
 
 This application will use the following npm packages:-
 
-  * npm install express (express.js)
-  * npm install --save-dev webpack (Webpack)
-  * npm install webpack-dev-server --save-dev (webpack-dev-server)
+  * npm install 
   * npm npm install idb (IndexedDB)
-  Application must have a generated manifest.json using the WebpackPwaManifest plug-in
+  * Application must have a generated manifest.json using the WebpackPwaManifest plug-in
+  * npm run start
 
 The required modules are bundled in the package.json file and at CLI or integrated terminal type in npm run install, the modules will be installed.
 
