@@ -38,6 +38,8 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 
-this is the link to the Mock-up 
+this is the link to the Mock-up https://drive.google.com/file/d/1M5yYoPiT4zfA6-4QnnXby_h6fI4VF5eW/view
 
 
+can be deployed at
+https://sheltered-spire-79865.herokuapp.com/
