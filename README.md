@@ -38,8 +38,11 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 
-this is the link to the Mock-up https://drive.google.com/file/d/1M5yYoPiT4zfA6-4QnnXby_h6fI4VF5eW/view
+this challange was done with the help of my toutor Chris B, study partner David, and the slack ABC
+
+this is the link to the Mock-up https://drive.google.com/file/d/1wbPrCIb3ZFMhac-sMUlMbbDfE9RQzLUx/view
 
 
 can be deployed at
 https://sheltered-spire-79865.herokuapp.com/
+link to github https://github.com/Afrema90/Progressive-Web-Applications-PWA-Challenge-Text-Editor
